@@ -1,0 +1,6 @@
+{
+  "name": "Purchase Order Generator",
+  "description": "An interactive web application to generate professional purchase orders based on user inputs for items, quantities, and prices. It provides a live preview and a printable output.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
