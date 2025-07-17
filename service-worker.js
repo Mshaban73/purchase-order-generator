@@ -1,7 +1,8 @@
-const CACHE_NAME = 'po-generator-cache-v2';
+const CACHE_NAME = 'po-generator-cache-v3';
 const urlsToCache = [
   '/',
   '/index.html',
+  '/logo.png'
 ];
 
 // On install, pre-cache the app shell.
