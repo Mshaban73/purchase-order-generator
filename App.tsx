@@ -12,10 +12,7 @@ const App: React.FC = () => {
   const [supplier, setSupplier] = useState<string>('Bridge Egypt');
   const [paymentTerms, setPaymentTerms] = useState<string>('Cash');
   const [deliveryTerms, setDeliveryTerms] = useState<string>('Your location');
-  const [items, setItems] = useState<LineItem[]>([
-    { id: 1, code: '1', description: 'Nut M30 "Galvanized"', quantity: 12.0, price: 35.70, unit: 'EA' },
-    { id: 2, code: '2', description: 'Nut M24 "Galvanized"', quantity: 8.0, price: 17.60, unit: 'EA' },
-  ]);
+  const [items, setItems] = useState<LineItem[]>([]);
   
   const [poNumberCounter, setPoNumberCounter] = useState<number>(1);
   const [pricesIncludeTax, setPricesIncludeTax] = useState<boolean>(false);
