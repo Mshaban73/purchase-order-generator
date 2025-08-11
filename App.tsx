@@ -62,7 +62,7 @@ const App: React.FC = () => {
   }, []);
 
   const handleAddItem = useCallback(() => {
-    setItems(prevItems => [...prevItems, { id: Date.now(), code: '', description: '', quantity: 1, price: 0, unit: 'EA' }]);
+    setItems(prevItems => [...prevItems, { id: Date.now(), code: '', description: '', quantity: 1, price: 0, unit: '' }]);
   }, []);
 
   const handleRemoveItem = useCallback((indexToRemove: number) => {
