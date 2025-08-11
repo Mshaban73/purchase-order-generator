@@ -9,9 +9,9 @@ const LOCAL_STORAGE_KEY = 'savedPurchaseOrders';
 
 
 const App: React.FC = () => {
-  const [supplier, setSupplier] = useState<string>('Bridge Egypt');
-  const [paymentTerms, setPaymentTerms] = useState<string>('Cash');
-  const [deliveryTerms, setDeliveryTerms] = useState<string>('Your location');
+  const [supplier, setSupplier] = useState<string>('');
+  const [paymentTerms, setPaymentTerms] = useState<string>('');
+  const [deliveryTerms, setDeliveryTerms] = useState<string>('');
   const [items, setItems] = useState<LineItem[]>([]);
   
   const [poNumberCounter, setPoNumberCounter] = useState<number>(1);
