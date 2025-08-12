@@ -36,7 +36,7 @@ export const PurchaseOrderPreview: React.FC<PurchaseOrderPreviewProps> = ({
   [items]);
 
   return (
-    <div id="po-preview" className="p-8 lg:p-10 bg-white rounded-xl shadow-2xl w-full max-w-4xl mx-auto font-cairo">
+    <div id="po-preview" className="p-8 lg:p-10 bg-white rounded-xl shadow-2xl w-full max-w-6xl mx-auto font-cairo">
       <div dir="rtl" className="text-right">
         {/* Header */}
         <header className="flex justify-between items-start pb-6 border-b-2 border-gray-200">
