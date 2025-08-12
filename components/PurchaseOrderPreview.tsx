@@ -163,10 +163,27 @@ export const PurchaseOrderPreview: React.FC<PurchaseOrderPreviewProps> = ({
               <p className="font-poppins">{deliveryTerms}</p>
             </div>
           </div>
+          
+          {/* ----- START OF MODIFICATION / بداية التعديل ----- */}
           <div className="mt-20 text-right">
             <p className="font-bold">إدارة المشتريات</p>
-            <div className="mt-16 border-b-2 border-gray-400 w-56"></div>
+            
+            {/* حاوية الختم والتوقيع */}
+            <div className="relative h-24 w-48 mt-2 inline-block">
+                <img 
+                    src="/assets/seal.png" 
+                    alt="Company Seal" 
+                    className="absolute top-0 left-0 w-24 h-24 opacity-80" 
+                />
+                <img 
+                    src="/assets/signature.png"
+                    alt="Signature" 
+                    className="absolute top-4 left-2 w-32"
+                />
+            </div>
           </div>
+          {/* ----- END OF MODIFICATION / نهاية التعديل ----- */}
+
         </div>
       </div>
     </div>
