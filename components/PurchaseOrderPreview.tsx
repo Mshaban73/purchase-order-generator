@@ -36,7 +36,7 @@ export const PurchaseOrderPreview: React.FC<PurchaseOrderPreviewProps> = ({
   [items]);
 
   return (
-    <div id="po-preview" className="p-8 lg:p-10 bg-white rounded-xl shadow-2xl w-full max-w-6xl mx-auto font-cairo">
+    <div id="po-preview" className="p-4 lg:p-6 bg-white rounded-xl shadow-2xl w-full max-w-5xl mx-auto font-cairo">
       <div dir="rtl" className="text-right">
         {/* Header */}
         <header className="flex justify-between items-start pb-6 border-b-2 border-gray-200">
@@ -56,7 +56,7 @@ export const PurchaseOrderPreview: React.FC<PurchaseOrderPreviewProps> = ({
         </header>
 
         {/* PO Number - Centered */}
-        <div className="text-center my-8">
+        <div className="text-center my-4">
             <h2 className="text-2xl font-bold inline-block border-b-2 border-gray-300 pb-2 px-4">
                 أمر توريد رقم: <span className="font-poppins tracking-wider">{poNumber}</span>
             </h2>
@@ -152,7 +152,7 @@ export const PurchaseOrderPreview: React.FC<PurchaseOrderPreviewProps> = ({
         </div>
 
         {/* Terms & Signature */}
-        <div className="mt-12 text-sm text-gray-700">
+        <div className="mt-8 text-sm text-gray-700">
           <div className="grid grid-cols-2 gap-4">
             <div>
               <p className="font-bold mb-1">شروط الدفع:</p>
@@ -164,11 +164,9 @@ export const PurchaseOrderPreview: React.FC<PurchaseOrderPreviewProps> = ({
             </div>
           </div>
           
-          {/* ----- START OF MODIFICATION / بداية التعديل ----- */}
-          <div className="mt-20 text-right">
+          <div className="mt-10 text-right">
             <p className="font-bold">إدارة المشتريات</p>
             
-            {/* حاوية الختم والتوقيع */}
             <div className="relative h-28 w-48 mt-2 inline-block">
                 <img 
                     src="/assets/seal.png" 
@@ -182,8 +180,6 @@ export const PurchaseOrderPreview: React.FC<PurchaseOrderPreviewProps> = ({
                 />
             </div>
           </div>
-          {/* ----- END OF MODIFICATION / نهاية التعديل ----- */}
-
         </div>
       </div>
     </div>
