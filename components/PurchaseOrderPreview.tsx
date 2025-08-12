@@ -169,16 +169,16 @@ export const PurchaseOrderPreview: React.FC<PurchaseOrderPreviewProps> = ({
             <p className="font-bold">إدارة المشتريات</p>
             
             {/* حاوية الختم والتوقيع */}
-            <div className="relative h-24 w-48 mt-2 inline-block">
+            <div className="relative h-28 w-48 mt-2 inline-block">
                 <img 
                     src="/assets/seal.png" 
                     alt="Company Seal" 
-                    className="absolute top-0 left-0 w-24 h-24 opacity-80" 
+                    className="absolute top-0 right-0 w-24 h-24"
                 />
                 <img 
                     src="/assets/signature.png"
                     alt="Signature" 
-                    className="absolute top-4 left-2 w-32"
+                    className="absolute bottom-4 left-0 w-40"
                 />
             </div>
           </div>
