@@ -73,7 +73,7 @@ export const PurchaseOrderPreview: React.FC<PurchaseOrderPreviewProps> = ({
           <table className="w-full text-right border-collapse">
             <thead>
               <tr className="bg-gray-100 border-y-2 border-gray-300">
-                <th className="p-3 font-bold text-gray-600 text-sm tracking-wider">الرقم المسلسل</th>
+                <th className="p-3 font-bold text-gray-600 text-sm tracking-wider">م</th>
                 {showItemCodeColumn && <th className="p-3 font-bold text-gray-600 text-sm tracking-wider">كود الصنف</th>}
                 <th className="p-3 font-bold text-gray-600 text-sm tracking-wider">اسم الصنف</th>
                 <th className="p-3 font-bold text-gray-600 text-sm tracking-wider">الوحدة</th>
